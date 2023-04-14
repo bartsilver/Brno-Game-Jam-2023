@@ -19,11 +19,12 @@ public class Prisoner : MonoBehaviour
 
     private void Update()
     {
-        
+        noiseLevel += Time.deltaTime;
     }
     public void UpdateStats(float noise)
     {
-        noiseLevel += noise;
+        noiseLevel = Mathf.Max(noiseLevel + noise, 0);
+        //noiseLevel += noise;
         Debug.Log("object used");
     }
 

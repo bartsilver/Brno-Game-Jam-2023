@@ -19,6 +19,9 @@ public class CollectableObject : MonoBehaviour, ICollectable
     {
         Debug.Log(name + " collected");
         inventory.GetComponent<InventoryUI>().PutInInventory(gameObject.name);
+        cameraControl.OnHouseView -= DisableCollider;
+        cameraControl.OnRoomView -= EnableCollider;
+        Destroy(gameObject);
     }
 
     private void EnableCollider()

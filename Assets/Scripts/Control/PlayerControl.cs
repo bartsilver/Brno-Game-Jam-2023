@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerControl : MonoBehaviour
 {
-    public GameObject equipedObject = null;
+    public UsableObject equipedObject = null;
 
     private void Update()
     {
@@ -26,16 +27,19 @@ public class PlayerControl : MonoBehaviour
         foreach (RaycastHit hit in hits)
         {
             ICollectable collectable = hit.transform.GetComponent<ICollectable>();
+            Prisoner prisoner = hit.transform.GetComponent<Prisoner>();
 
             if (collectable != null)
             {
                 collectable.Collect();
             }
+
+            if (prisoner != null && equipedObject != null)
+            {
+                equipedObject.UseObject(prisoner);
+                GameObject.FindWithTag("Inventory").GetComponent<InventoryUI>().TakeFromInventory(equipedObject.name);
+                equipedObject = null;
+            }
         }
-    }
-
-    private void UseObject()
-    {
-
     }
 }

@@ -9,6 +9,7 @@ public class CameraControl : MonoBehaviour
     [SerializeField] CinemachineVirtualCamera[] camerasArray;
 
     public event Action OnHouseView;
+    public event Action OnRoomView;
 
     private void Start()
     {
@@ -29,6 +30,10 @@ public class CameraControl : MonoBehaviour
         {
             if (camera.name == cameraName)
             {
+                if(camera.name != "House Cam")
+                {
+                    OnRoomView();
+                }
                 camera.Priority = 100;
             }
             else

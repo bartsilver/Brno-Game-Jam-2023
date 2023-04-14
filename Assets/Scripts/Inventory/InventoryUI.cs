@@ -5,26 +5,27 @@ using UnityEngine.UI;
 
 public class InventoryUI : MonoBehaviour
 {
-    [SerializeField] Image[] objectInInventory;
+    [SerializeField] GameObject[] objectInInventory;
 
     public void PutInInventory(string name)
     {
-        foreach (Image objectToCollect in objectInInventory)
+        foreach (GameObject objectToCollect in objectInInventory)
         {
             if (objectToCollect.name == name)
             {
-                objectToCollect.enabled = true;
+                Debug.Log(name + " put in inventory");
+                objectToCollect.SetActive(true);
             }
         }
     }
 
     public void TakeFromInventory(string name)
     {
-        foreach (Image objectToCollect in objectInInventory)
+        foreach (GameObject objectToCollect in objectInInventory)
         {
             if (objectToCollect.name == name)
             {
-                objectToCollect.enabled = false;
+                objectToCollect.SetActive(false);
             }
         }
     }

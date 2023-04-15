@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Blanket
   m_EditorClassIdentifier: 
   objectPrefab: {fileID: 0}
-  effect: 10
-  bestUsedInStageNumber: 3
-  noEffectInStageNumber: 2
-  doNotUseInStageNumber: 1
+  effect: 20
+  bestUsedInStageNumber: 1
+  noEffectInStageNumber: 3
+  doNotUseInStageNumber: 2
+  isSyringe: 0

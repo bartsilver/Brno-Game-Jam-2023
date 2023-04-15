@@ -111,5 +111,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac4ec8676b85aad4ba78b04049b3ed7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noiseLevel: 0
+  maxNoiseLevel: 0
+  redVignete: {fileID: 0}
+  greyVignete: {fileID: 0}
+  greenVignete: {fileID: 0}
+  noiseLevelPercentage: 0
   stage: 1

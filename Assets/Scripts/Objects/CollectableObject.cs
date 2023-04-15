@@ -2,7 +2,6 @@ using Cinemachine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Playables;
 using UnityEngine.UI;
 
 public class CollectableObject : MonoBehaviour, ICollectable
@@ -25,8 +24,6 @@ public class CollectableObject : MonoBehaviour, ICollectable
         cameraControl.OnHouseView += IsHouseCam;
         cameraControl.OnRoomView += EnableCollider;
         cameraControl.OnRoomView += IsNotHouseCam;
-
-        GetComponent<PlayableDirector>().stopped += PutInInventory;
     }
     private void Update()
     {
@@ -39,10 +36,10 @@ public class CollectableObject : MonoBehaviour, ICollectable
             EnableCollider();
         }
 
-        if(shouldShake)
+        if (shouldShake)
         {
             if (elapsedTime < shakeTime)
-            {              
+            {
                 transform.position = new Vector3(startingPosition.x + Random.Range(-0.15f, 0.15f), startingPosition.y + 0f, startingPosition.z + 0f);
                 elapsedTime += Time.deltaTime;
             }
@@ -56,16 +53,9 @@ public class CollectableObject : MonoBehaviour, ICollectable
     public void Collect()
     {
         Debug.Log(name + " collected");
-        GetComponent<PlayableDirector>().Play();
+        inventory.GetComponent<InventoryUI>().PutInInventory(gameObject.name);
         cameraControl.OnHouseView -= DisableCollider;
         cameraControl.OnRoomView -= EnableCollider;
-    }
-
-    private void PutInInventory(PlayableDirector obj)
-    {
-        inventory.GetComponent<InventoryUI>().PutInInventory(gameObject.name);
-        GetComponent<Animation>().Play();
-
         Destroy(gameObject);
     }
 

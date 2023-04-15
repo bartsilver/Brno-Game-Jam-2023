@@ -936,6 +936,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8242399010682108686, guid: fcfb13eae0b9a224d9bd78f5de140491, type: 3}
+      propertyPath: maxNoiseLevel
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 8242399010682108721, guid: fcfb13eae0b9a224d9bd78f5de140491, type: 3}
       propertyPath: m_RootOrder
       value: 7

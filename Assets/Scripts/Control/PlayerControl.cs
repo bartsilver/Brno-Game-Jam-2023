@@ -29,14 +29,12 @@ public class PlayerControl : MonoBehaviour
 
     private void PlayLoseCutscene()
     {
-        print("NAAY");
         loseCutscene.GetComponent<CutscenesControl>().winLoseMenu.SetActive(true);
         loseCutscene.Play();
     }
 
     private void PlayWinCutscene()
     {
-        print("YAAY");
         winCutscene.GetComponent<CutscenesControl>().winLoseMenu.SetActive(true);
         winCutscene.Play();
     }

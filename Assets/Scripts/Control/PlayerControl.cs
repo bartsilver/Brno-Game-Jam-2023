@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Playables;
+using System;
 
 public class PlayerControl : MonoBehaviour
 {
@@ -49,8 +50,15 @@ public class PlayerControl : MonoBehaviour
         RaycastHit[] hits = Physics.RaycastAll(GetMouseRay());
         foreach (RaycastHit hit in hits)
         {
+            Cupboard cupboard = hit.transform.GetComponent<Cupboard>();
             ICollectable collectable = hit.transform.GetComponent<ICollectable>();
             Prisoner prisoner = hit.transform.GetComponent<Prisoner>();
+
+            if (cupboard != null)
+            {
+                cupboard.OpenDoor();
+                return;
+            }
 
             if (collectable != null)
             {

@@ -12,18 +12,12 @@ public class CollectableObject : MonoBehaviour, ICollectable
     private Vector3 startingPosition;
     private float shakeTime = 0.2f;
     private bool shouldShake = false;
-    private bool isHouseCam = true;
+    public bool isHouseCam = true;
     float elapsedTime = 0f;
 
     private void Start()
     {
-        startingPosition = transform.position;
-        cameraControl = FindObjectOfType<CameraControl>();
-        inventory = GameObject.FindWithTag("Inventory");
-        cameraControl.OnHouseView += DisableCollider;
-        cameraControl.OnHouseView += IsHouseCam;
-        cameraControl.OnRoomView += EnableCollider;
-        cameraControl.OnRoomView += IsNotHouseCam;
+        //isHouseCam = true;
     }
     private void Update()
     {
@@ -31,7 +25,7 @@ public class CollectableObject : MonoBehaviour, ICollectable
         {
             DisableCollider();
         }
-        else
+        else if (!Camera.main.GetComponent<CinemachineBrain>().IsBlending && !isHouseCam)
         {
             EnableCollider();
         }
@@ -64,6 +58,19 @@ public class CollectableObject : MonoBehaviour, ICollectable
         isHouseCam = true;
     }
 
+    private void OnEnable()
+    {
+        startingPosition = transform.position;
+        cameraControl = FindObjectOfType<CameraControl>();
+        inventory = GameObject.FindWithTag("Inventory");
+        cameraControl.OnHouseView += DisableCollider;
+        cameraControl.OnHouseView += IsHouseCam;
+        cameraControl.OnRoomView += EnableCollider;
+        cameraControl.OnRoomView += IsNotHouseCam;
+        EnableCollider();
+        Debug.Log("enabled");
+    }
+
     private void IsNotHouseCam()
     {
         isHouseCam = false;
@@ -77,6 +84,7 @@ public class CollectableObject : MonoBehaviour, ICollectable
     private void DisableCollider()
     {
         GetComponent<Collider>().enabled = false;
+        Debug.Log("disabled");
     }
     private void OnMouseEnter()
     {

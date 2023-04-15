@@ -51,9 +51,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8774945398348746409, guid: 83add72870f840646add716cf66aedb1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e2d910d2942a5a241b3c1f52f3a936c7, type: 3}
     - target: {fileID: 8774945398348746410, guid: 83add72870f840646add716cf66aedb1, type: 3}
       propertyPath: m_Name
-      value: CollectableObject
+      value: Water
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83add72870f840646add716cf66aedb1, type: 3}

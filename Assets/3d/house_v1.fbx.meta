@@ -8,32 +8,32 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Color_M08
-    second: {fileID: 2100000, guid: a2f1e82e326b12444ac5a6f1e610d329, type: 2}
+    second: {fileID: 2100000, guid: d2d60530fadf59b4d9aed8a9ac449d91, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FrontColor
+    second: {fileID: 2100000, guid: ba0d97dfef8d48d40b9921841276caa4, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: _
-    second: {fileID: 2100000, guid: 07f4bb007e317694e878fecaf82bce6e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: _1
-    second: {fileID: 2100000, guid: f05c39c3e42002342ab4ad59d08da195, type: 2}
+    second: {fileID: 2100000, guid: d6ba743403ef2b9419594042940b62a8, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: _2
-    second: {fileID: 2100000, guid: 3862b05e370fada4c8f9b49e7d279307, type: 2}
+    second: {fileID: 2100000, guid: 480c673eae5d82e49bcfbaaf429c4ace, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: _3
-    second: {fileID: 2100000, guid: 9bb4106c35fc7644490373a766c0983e, type: 2}
+    second: {fileID: 2100000, guid: bf84d8777b1cf7f4caf7b4406d65e6a1, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: _4
-    second: {fileID: 2100000, guid: b3d4c97135bab1b44a98b4fa0de363a8, type: 2}
+    second: {fileID: 2100000, guid: 366488c8c0360da4bb05ed1b30d3a859, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

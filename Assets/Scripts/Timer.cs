@@ -25,6 +25,7 @@ public class Timer : MonoBehaviour
 
     private void Update()
     {
+        if (Cursor.visible == false) return;
         elapsedTime += Time.deltaTime;
         totalElapsedTime += Time.deltaTime;
 

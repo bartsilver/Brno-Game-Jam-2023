@@ -14,7 +14,8 @@ public class Prisoner : MonoBehaviour
 
     CameraControl cameraControl;
 
-    public event Action OnReachedMaxNoiseLevel;
+    public event Action OnLose;
+    public event Action OnWin;
 
     private void Start()
     {
@@ -26,6 +27,7 @@ public class Prisoner : MonoBehaviour
 
     private void Update()
     {
+        if (Cursor.visible == false) return;
         noiseLevel += Time.deltaTime;
         noiseLevelPercentage = (noiseLevel / maxNoiseLevel) * 100f;
         if (noiseLevelPercentage > 100)
@@ -67,10 +69,13 @@ public class Prisoner : MonoBehaviour
 
     private void WinGame()
     {
-        throw new NotImplementedException();
+        OnWin();
+        this.enabled = false;
     }
     private void LoseGame()
     {
         Debug.Log("Lost game!");
+        OnLose();
+        this.enabled = false;
     }
 }

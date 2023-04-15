@@ -6,6 +6,13 @@ using UnityEngine.UI;
 public class InventoryUI : MonoBehaviour
 {
     [SerializeField] GameObject[] objectInInventory;
+    private GameObject gameObjectToMove;
+
+
+    private void Update()
+    {
+        
+    }
 
     public void PutInInventory(string name)
     {
@@ -15,6 +22,7 @@ public class InventoryUI : MonoBehaviour
             {
                 Debug.Log(name + " put in inventory");
                 objectToCollect.SetActive(true);
+                //objectToCollect.transform.
             }
         }
     }

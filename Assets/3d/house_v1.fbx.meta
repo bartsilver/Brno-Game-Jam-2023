@@ -7,8 +7,33 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Color_M08
+    second: {fileID: 2100000, guid: a2f1e82e326b12444ac5a6f1e610d329, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _
+    second: {fileID: 2100000, guid: 07f4bb007e317694e878fecaf82bce6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: _1
     second: {fileID: 2100000, guid: f05c39c3e42002342ab4ad59d08da195, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _2
+    second: {fileID: 2100000, guid: 3862b05e370fada4c8f9b49e7d279307, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _3
+    second: {fileID: 2100000, guid: 9bb4106c35fc7644490373a766c0983e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _4
+    second: {fileID: 2100000, guid: b3d4c97135bab1b44a98b4fa0de363a8, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

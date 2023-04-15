@@ -2,6 +2,7 @@ using Cinemachine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Playables;
 using UnityEngine.UI;
 
 public class CollectableObject : MonoBehaviour, ICollectable
@@ -24,6 +25,8 @@ public class CollectableObject : MonoBehaviour, ICollectable
         cameraControl.OnHouseView += IsHouseCam;
         cameraControl.OnRoomView += EnableCollider;
         cameraControl.OnRoomView += IsNotHouseCam;
+
+        GetComponent<PlayableDirector>().stopped += PutInInventory;
     }
     private void Update()
     {
@@ -53,9 +56,16 @@ public class CollectableObject : MonoBehaviour, ICollectable
     public void Collect()
     {
         Debug.Log(name + " collected");
-        inventory.GetComponent<InventoryUI>().PutInInventory(gameObject.name);
+        GetComponent<PlayableDirector>().Play();
         cameraControl.OnHouseView -= DisableCollider;
         cameraControl.OnRoomView -= EnableCollider;
+    }
+
+    private void PutInInventory(PlayableDirector obj)
+    {
+        inventory.GetComponent<InventoryUI>().PutInInventory(gameObject.name);
+        GetComponent<Animation>().Play();
+
         Destroy(gameObject);
     }
 

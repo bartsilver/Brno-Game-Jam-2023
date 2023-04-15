@@ -28,4 +28,15 @@ public class MenuButton : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void PlayAgain()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
+
 }

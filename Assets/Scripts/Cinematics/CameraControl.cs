@@ -31,7 +31,7 @@ public class CameraControl : MonoBehaviour
             if (camera.name == cameraName)
             {
                 if(camera.name != "House Cam")
-                {
+                {                   
                     OnRoomView();
                 }
                 camera.Priority = 100;

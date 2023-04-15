@@ -17,6 +17,6 @@ public class NoiseBar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        mask.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, originalSize + prisoner.noiseLevel);
+        mask.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, originalSize + prisoner.noiseLevelPercentage);
     }
 }

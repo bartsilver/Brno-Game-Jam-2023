@@ -1,13 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class Prisoner : MonoBehaviour
 {
-    public float noiseLevel = 0f;
+    [SerializeField] float maxNoiseLevel = 0f;
+
+    private float noiseLevel = 0f;
+    public float noiseLevelPercentage = 0f;
+
     public int stage = 1;
 
     CameraControl cameraControl;
+
+    public event Action OnReachedMaxNoiseLevel;
 
     private void Start()
     {
@@ -20,11 +27,17 @@ public class Prisoner : MonoBehaviour
     private void Update()
     {
         noiseLevel += Time.deltaTime;
+        noiseLevelPercentage = (noiseLevel / maxNoiseLevel) * 100f;
+        if (noiseLevelPercentage > 100)
+        {
+            LoseGame();
+        }
     }
+
+
     public void UpdateStats(float noise)
     {
         noiseLevel = Mathf.Max(noiseLevel + noise, 0);
-        //noiseLevel += noise;
         Debug.Log("object used");
     }
 
@@ -46,9 +59,18 @@ public class Prisoner : MonoBehaviour
     {
         if (stage == 3)
         {
-            //Win
+            WinGame();
             return;
         }
         stage += 1;
+    }
+
+    private void WinGame()
+    {
+        throw new NotImplementedException();
+    }
+    private void LoseGame()
+    {
+        Debug.Log("Lost game!");
     }
 }

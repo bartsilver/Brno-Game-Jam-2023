@@ -1,3 +1,4 @@
+using Cinemachine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,6 +15,17 @@ public class CollectableObject : MonoBehaviour, ICollectable
         inventory = GameObject.FindWithTag("Inventory");
         cameraControl.OnHouseView += DisableCollider;
         cameraControl.OnRoomView += EnableCollider;
+    }
+    private void Update()
+    {
+        if (Camera.main.GetComponent<CinemachineBrain>().IsBlending)
+        {
+            DisableCollider();
+        }
+        else
+        {
+            EnableCollider();
+        }
     }
     public void Collect()
     {

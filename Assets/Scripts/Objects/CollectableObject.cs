@@ -50,6 +50,13 @@ public class CollectableObject : MonoBehaviour, ICollectable
         inventory.GetComponent<InventoryUI>().PutInInventory(gameObject.name);
         cameraControl.OnHouseView -= DisableCollider;
         cameraControl.OnRoomView -= EnableCollider;
+
+        Cupboard cupboard = GetComponentInParent<Cupboard>();
+        if(cupboard != null)
+        {
+            cupboard.objectCollected = true;
+        }
+
         Destroy(gameObject);
     }
 
@@ -68,7 +75,6 @@ public class CollectableObject : MonoBehaviour, ICollectable
         cameraControl.OnRoomView += EnableCollider;
         cameraControl.OnRoomView += IsNotHouseCam;
         EnableCollider();
-        Debug.Log("enabled");
     }
 
     private void IsNotHouseCam()
@@ -84,7 +90,6 @@ public class CollectableObject : MonoBehaviour, ICollectable
     private void DisableCollider()
     {
         GetComponent<Collider>().enabled = false;
-        Debug.Log("disabled");
     }
     private void OnMouseEnter()
     {

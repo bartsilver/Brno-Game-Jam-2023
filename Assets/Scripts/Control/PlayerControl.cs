@@ -54,16 +54,18 @@ public class PlayerControl : MonoBehaviour
             ICollectable collectable = hit.transform.GetComponent<ICollectable>();
             Prisoner prisoner = hit.transform.GetComponent<Prisoner>();
 
-            if (cupboard != null)
-            {
-                cupboard.OpenDoor();
-                return;
-            }
+            Debug.Log(hit.transform.gameObject.name);
 
             if (collectable != null)
             {
                 collectable.Collect();
             }
+
+            if (cupboard != null)
+            {
+                cupboard.OpenCloseDoor();
+            }
+
 
             if (prisoner != null && equipedObject != null)
             {

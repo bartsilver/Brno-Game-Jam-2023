@@ -143,7 +143,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a6fbd5a181bc51e42a61a73fe8d727c8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c3f0436ca19251246b2e180fe9bc5adf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -167,7 +167,7 @@ GameObject:
   - component: {fileID: 738387077931625144}
   - component: {fileID: 1063949572684274885}
   m_Layer: 5
-  m_Name: PainMeds2
+  m_Name: Cracker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -300,7 +300,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7911b3bebe3fdc14c9a9c0415af7143b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  usableObject: {fileID: 11400000, guid: cccfa7aadad76044faf7be9c78ded05f, type: 2}
+  usableObject: {fileID: 11400000, guid: fd6d7b4a0dc20e44fb4699e33da6e92c, type: 2}
 --- !u!1 &271134689973874242
 GameObject:
   m_ObjectHideFlags: 0
@@ -765,7 +765,7 @@ GameObject:
   - component: {fileID: 5484390358761326040}
   - component: {fileID: 3610809105537566037}
   m_Layer: 5
-  m_Name: PainMeds2
+  m_Name: TeddyBear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -898,7 +898,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7911b3bebe3fdc14c9a9c0415af7143b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  usableObject: {fileID: 11400000, guid: cccfa7aadad76044faf7be9c78ded05f, type: 2}
+  usableObject: {fileID: 11400000, guid: e5283f52128a15a43ae87f3879d543fc, type: 2}
 --- !u!1 &638418202755382335
 GameObject:
   m_ObjectHideFlags: 0
@@ -926,7 +926,7 @@ RectTransform:
   m_GameObject: {fileID: 638418202755382335}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.7, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5730622127989470924}
@@ -965,7 +965,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a6fbd5a181bc51e42a61a73fe8d727c8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3441b68be1e498c4996d6899e63488c7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -989,7 +989,7 @@ GameObject:
   - component: {fileID: 1448850048521959528}
   - component: {fileID: 4793890853604841212}
   m_Layer: 5
-  m_Name: PainMeds2
+  m_Name: ToiletPaper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1122,7 +1122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7911b3bebe3fdc14c9a9c0415af7143b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  usableObject: {fileID: 11400000, guid: cccfa7aadad76044faf7be9c78ded05f, type: 2}
+  usableObject: {fileID: 11400000, guid: d49db657ae7223d4ab84f0eee750010f, type: 2}
 --- !u!1 &2463495283249657532
 GameObject:
   m_ObjectHideFlags: 0
@@ -1150,7 +1150,7 @@ RectTransform:
   m_GameObject: {fileID: 2463495283249657532}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 0.48749, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7798380015810808481}
@@ -1189,7 +1189,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a6fbd5a181bc51e42a61a73fe8d727c8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ebd06088e02beda4b9c47eb0c0242ca1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1218,7 +1218,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8429956049709806468
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1945,7 +1945,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a6fbd5a181bc51e42a61a73fe8d727c8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 10abb9c495ad82749938758aadbead5e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1969,7 +1969,7 @@ GameObject:
   - component: {fileID: 9027197805115952170}
   - component: {fileID: 8414829862164258395}
   m_Layer: 5
-  m_Name: PainMeds2
+  m_Name: Apple
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2102,7 +2102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7911b3bebe3fdc14c9a9c0415af7143b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  usableObject: {fileID: 11400000, guid: cccfa7aadad76044faf7be9c78ded05f, type: 2}
+  usableObject: {fileID: 11400000, guid: f645df722ed4e744591f428bcff46206, type: 2}
 --- !u!1 &5204620904774103881
 GameObject:
   m_ObjectHideFlags: 0
@@ -2169,7 +2169,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 626b9cddb29049e4cac50cd87b419945, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 00072349cf0b25a469a6180636b6645d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2347,7 +2347,7 @@ GameObject:
   - component: {fileID: 6475594559350283416}
   - component: {fileID: 1639228302564966483}
   m_Layer: 5
-  m_Name: PainMeds2
+  m_Name: Syringe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2480,7 +2480,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7911b3bebe3fdc14c9a9c0415af7143b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  usableObject: {fileID: 11400000, guid: cccfa7aadad76044faf7be9c78ded05f, type: 2}
+  usableObject: {fileID: 11400000, guid: 62599c30fda38784a940d4653780b909, type: 2}
 --- !u!1 &5638761993836925910
 GameObject:
   m_ObjectHideFlags: 0
@@ -2547,7 +2547,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a6fbd5a181bc51e42a61a73fe8d727c8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d6de6b3135d792944b36b121a4b4fe2f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2814,7 +2814,7 @@ RectTransform:
   m_GameObject: {fileID: 6763410378089153552}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 0.56248, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1223611881180121196}
@@ -2853,7 +2853,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a6fbd5a181bc51e42a61a73fe8d727c8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d67c5a6352a146c41b524a962c2035f1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3256,7 +3256,7 @@ GameObject:
   - component: {fileID: 4253013658928211960}
   - component: {fileID: 5581410443638271878}
   m_Layer: 5
-  m_Name: PainMeds2
+  m_Name: Bucket
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3389,7 +3389,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7911b3bebe3fdc14c9a9c0415af7143b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  usableObject: {fileID: 11400000, guid: cccfa7aadad76044faf7be9c78ded05f, type: 2}
+  usableObject: {fileID: 11400000, guid: b4b8e2973e8aba74182c7c10c65ad869, type: 2}
 --- !u!1 &7651024133315722975
 GameObject:
   m_ObjectHideFlags: 0
@@ -3494,7 +3494,7 @@ RectTransform:
   m_GameObject: {fileID: 7886746996455348604}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 0.56252, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7886746996488437605}
@@ -3533,7 +3533,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a3ced8f7044b9de4787602a9e9b20ea7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 58c2053cd0e6d3741a541627c76514d7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3599,7 +3599,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7886746996488437604}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -3612,8 +3612,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 58c2053cd0e6d3741a541627c76514d7, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -3866,7 +3866,7 @@ RectTransform:
   m_GameObject: {fileID: 8472781793789616330}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 0.71251, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8429956049709806468}
@@ -3905,7 +3905,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a6fbd5a181bc51e42a61a73fe8d727c8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 73dc7cae3bdd2a9438c4b74f1d0c4002, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3929,7 +3929,7 @@ GameObject:
   - component: {fileID: 706830910116829926}
   - component: {fileID: 8549983141978470948}
   m_Layer: 5
-  m_Name: PainMeds2
+  m_Name: Diary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4062,7 +4062,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7911b3bebe3fdc14c9a9c0415af7143b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  usableObject: {fileID: 11400000, guid: cccfa7aadad76044faf7be9c78ded05f, type: 2}
+  usableObject: {fileID: 11400000, guid: 90d30dd811d255844a501d6884446b89, type: 2}
 --- !u!1 &8896021883942509007
 GameObject:
   m_ObjectHideFlags: 0
@@ -4166,7 +4166,7 @@ RectTransform:
   m_GameObject: {fileID: 9095606311825384643}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 0.33753, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2959118243691307024}
@@ -4205,7 +4205,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a6fbd5a181bc51e42a61a73fe8d727c8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6bcbba43a7d285647b8a203089bede96, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

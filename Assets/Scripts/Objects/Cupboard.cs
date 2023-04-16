@@ -1,4 +1,5 @@
 using Cinemachine;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,6 +15,7 @@ public class Cupboard : MonoBehaviour
 
     [SerializeField] GameObject doorsClosed;
     [SerializeField] GameObject doorsOpen;
+    [SerializeField] GameObject objectPlaceholder;
 
     private void Start()
     {
@@ -32,6 +34,16 @@ public class Cupboard : MonoBehaviour
         else
         {
             EnableCollider();
+        }
+
+        DeletePlaceholder();
+    }
+
+    private void DeletePlaceholder()
+    {
+        if (objectPlaceholder != null && objectCollected)
+        {
+            Destroy(objectPlaceholder);
         }
     }
 

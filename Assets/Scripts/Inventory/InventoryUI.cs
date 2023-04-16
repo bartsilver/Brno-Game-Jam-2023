@@ -14,6 +14,25 @@ public class InventoryUI : MonoBehaviour
         
     }
 
+    public bool FindInInventory(string name)
+    {
+        foreach (GameObject objectToCollect in objectInInventory)
+        {
+            if (objectToCollect.name == name)
+            {
+                Debug.Log(name + " put in inventory");
+                if (objectToCollect.activeSelf)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+        }
+        return false;
+    }
     public void PutInInventory(string name)
     {
         foreach (GameObject objectToCollect in objectInInventory)

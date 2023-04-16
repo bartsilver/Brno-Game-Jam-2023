@@ -16,6 +16,8 @@ public class Prisoner : MonoBehaviour
 
     private AudioSource girlAudioSource;
 
+    [SerializeField] Animator animator;
+
     private float noiseLevel = 0f;
     public float noiseLevelPercentage = 0f;
 
@@ -33,6 +35,7 @@ public class Prisoner : MonoBehaviour
         FindObjectOfType<Timer>().OnTimer += UpdateStage;
         cameraControl.OnHouseView += DisableCollider;
         cameraControl.OnRoomView += EnableCollider;
+        //animator = GetComponentInChildren<Animator>();
     }
 
     private void Update()
@@ -98,6 +101,8 @@ public class Prisoner : MonoBehaviour
             return;
         }
         stage += 1;
+        animator.SetFloat("Stage", stage);
+        Debug.Log(animator.GetFloat("Stage"));
     }
 
     private void WinGame()

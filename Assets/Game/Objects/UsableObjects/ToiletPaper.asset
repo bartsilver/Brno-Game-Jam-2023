@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ToiletPaper
   m_EditorClassIdentifier: 
   objectPrefab: {fileID: 0}
-  effect: 20
+  effect: 7
   bestUsedInStageNumber: 3
   noEffectInStageNumber: 1
   doNotUseInStageNumber: 2

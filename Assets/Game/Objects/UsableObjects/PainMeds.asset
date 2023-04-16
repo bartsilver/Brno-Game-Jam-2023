@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: PainMeds
   m_EditorClassIdentifier: 
   objectPrefab: {fileID: 0}
-  effect: 20
+  effect: 7
   bestUsedInStageNumber: 2
   noEffectInStageNumber: 3
   doNotUseInStageNumber: 1

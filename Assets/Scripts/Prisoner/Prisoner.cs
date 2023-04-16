@@ -14,6 +14,7 @@ public class Prisoner : MonoBehaviour
 
     private PlayableDirector vignettePD;
 
+    private AudioSource girlAudioSource;
 
     private float noiseLevel = 0f;
     public float noiseLevelPercentage = 0f;
@@ -27,6 +28,7 @@ public class Prisoner : MonoBehaviour
 
     private void Start()
     {
+        girlAudioSource = GetComponent<AudioSource>();
         cameraControl = FindObjectOfType<CameraControl>();
         FindObjectOfType<Timer>().OnTimer += UpdateStage;
         cameraControl.OnHouseView += DisableCollider;
@@ -38,6 +40,7 @@ public class Prisoner : MonoBehaviour
         if (Cursor.visible == false) return;
         noiseLevel += Time.deltaTime;
         noiseLevelPercentage = (noiseLevel / maxNoiseLevel) * 100f;
+        girlAudioSource.volume = (noiseLevel / maxNoiseLevel);
         if (noiseLevelPercentage > 100)
         {
             LoseGame();

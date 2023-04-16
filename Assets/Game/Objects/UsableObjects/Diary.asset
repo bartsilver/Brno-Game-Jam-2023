@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Diary
   m_EditorClassIdentifier: 
   objectPrefab: {fileID: 0}
-  effect: 20
+  effect: 10
   bestUsedInStageNumber: 3
   noEffectInStageNumber: 2
   doNotUseInStageNumber: 1

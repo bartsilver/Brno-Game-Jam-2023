@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Cracker
   m_EditorClassIdentifier: 
   objectPrefab: {fileID: 0}
-  effect: 10
+  effect: 7
   bestUsedInStageNumber: 1
   noEffectInStageNumber: 2
   doNotUseInStageNumber: 3

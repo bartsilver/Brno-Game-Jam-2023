@@ -6,6 +6,10 @@ using UnityEngine;
 public class Cupboard : MonoBehaviour
 {
     private bool isHouseCam = true;
+
+    public bool objectCollected = true;
+    public bool isOpened = false;
+
     private CameraControl cameraControl;
 
     [SerializeField] GameObject doorsClosed;
@@ -21,7 +25,7 @@ public class Cupboard : MonoBehaviour
     }
     private void Update()
     {
-        if (Camera.main.GetComponent<CinemachineBrain>().IsBlending || isHouseCam)
+        if (CheckIfBlendingAndHouseCam())
         {
             DisableCollider();
         }
@@ -30,16 +34,48 @@ public class Cupboard : MonoBehaviour
             EnableCollider();
         }
     }
+
+    private bool CheckIfBlendingAndHouseCam()
+    {
+        return Camera.main.GetComponent<CinemachineBrain>().IsBlending || isHouseCam;
+    }
+
+    public void OpenCloseDoor()
+    {
+        if (!isOpened)
+        {
+            OpenDoor();
+            return;
+        }
+
+        if (isOpened && objectCollected)
+        {
+            CloseDoor();
+        }
+    }
     public void OpenDoor()
     {
+        isOpened = true;
         doorsClosed.SetActive(false);
-        DisableCollider();
         doorsOpen.SetActive(true);
 
         foreach (CollectableObject collectable in GetComponentsInChildren<CollectableObject>())
         {
             collectable.isHouseCam = false;
         }
+    }
+
+    public void CloseDoor()
+    {
+        isOpened = false;
+        doorsClosed.SetActive(true);
+        //DisableCollider();
+        doorsOpen.SetActive(false);
+        /*
+        foreach (CollectableObject collectable in GetComponentsInChildren<CollectableObject>())
+        {
+            collectable.isHouseCam = false;
+        }*/
     }
 
     private void EnableCollider()

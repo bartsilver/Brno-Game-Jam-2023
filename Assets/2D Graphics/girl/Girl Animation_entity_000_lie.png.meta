@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -36,13 +36,13 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -51,9 +51,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -113,20 +113,1144 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2385
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e9d05c892747e4b9f502723d02f58a
+      internalID: 235856742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_1
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 2385
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9614c05d13c36474aa81886e04d2b38e
+      internalID: 1068125542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_2
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 2385
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b215cbeca502247863c05d78c11def
+      internalID: -1590919157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_3
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 2385
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0cf36fc61cd5eb4a8203c52c07d6dd6
+      internalID: -348730396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_4
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 2385
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81fc144f08089546ba08174be10f222
+      internalID: 1004323238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2120
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81797c35237f6e2479e5d4a7bd748e21
+      internalID: -1510661302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_6
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 2120
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffdc15161c4c48d47968c25ec36e8c15
+      internalID: -1108317371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_7
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 2120
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac55da3c2d7ef549938b37f802eee1b
+      internalID: 189518853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_8
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 2120
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2095097b47f9c4193228157660a108
+      internalID: 920534857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_9
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 2120
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b387cfc9279b4d2479b41a299572e044
+      internalID: -1811531521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1855
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dcba47f081e5e645b5f91a9f1035403
+      internalID: 1991619835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_11
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1855
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d71b27b41cd7b4448d1e51be353aa07
+      internalID: 84491865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_12
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1855
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0812285f18e1d6f499639f82d817543a
+      internalID: 828693129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_13
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 1855
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474f4a21f2496e34fbbb8eeb66246083
+      internalID: -1178468906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_14
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1855
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73930dd32e1c34e4aa824cbd75383661
+      internalID: -1712246172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1590
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd60210c652f87242a5221b0b6785f97
+      internalID: -627149338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_16
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1590
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36bef1d98db6ee04ea7326902f7812d3
+      internalID: 240178859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_17
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1590
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb82918c58ef1a4e801b2fb85483263
+      internalID: 1088134484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_18
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 1590
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 054fd43127831a14cb68206c445b247d
+      internalID: -1619012406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_19
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1590
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce111587abe04e40989eac37618be91
+      internalID: 886158930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1325
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e4de68d9263c548932495689cd5f45
+      internalID: -612203910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_21
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1325
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f735707a2256a747aa64ce92f4cf209
+      internalID: 1250428948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_22
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1325
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c8dba144a390d499cf91cdd71e315c
+      internalID: -1794805027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_23
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 1325
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d283f98fa674bf41b873991e8d42edb
+      internalID: 1672474235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_24
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1325
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be3062f434e7fe469e0750ec4dd3142
+      internalID: 2134506414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1060
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee02d53443436654ea6b29136d363e27
+      internalID: -1255668270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_26
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1060
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5059325c44ef9c84ea7ba06c02bb366f
+      internalID: 1404959363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_27
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1060
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79090148877531f4abde29957b9250ef
+      internalID: 722469278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_28
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 1060
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9688dd597e376554b92900cd8a73b2b9
+      internalID: 1039420917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_29
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1060
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7e8e07feeadbc46ace5a43b4739c97
+      internalID: 608089023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 795
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01000f1ed4804f74aa13e5bb32b45e8a
+      internalID: -875898348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_31
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 795
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4803cd0556087747ba974da619710eb
+      internalID: 384975081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_32
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 795
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10eb28db7768dcc4cbfb1e0721286bd9
+      internalID: 1662376612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_33
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 795
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9b7c8d97661a647906d715f8bd7c44
+      internalID: 1266911753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_34
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 795
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472b12f46b8d56149a7f7a491ccf905d
+      internalID: -769275162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 530
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9534a4cd65fda3a41adf9d900d67016e
+      internalID: 1962158030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_36
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 530
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 570cb75f70e5d5b40bdbe454be3afc8b
+      internalID: 254530333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_37
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 530
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398cac9547bf12d44819ef58aa22d3e9
+      internalID: 1689418861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_38
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 530
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd98f881739f2344dbe0b163ca564100
+      internalID: 1008081977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_39
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 530
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73cda04d11089eb458bba94ce61f5cec
+      internalID: -1362945083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 265
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6bd48e33f436ac439d95fe0441ceaa4
+      internalID: -1586016797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_41
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 265
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98244ca6163ebae41b48e82232b42c88
+      internalID: 200834962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_42
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 265
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df031bb17bb5b943a58e092f58dc82b
+      internalID: -876578175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_43
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 265
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304eb012651abaf42b2feee149d612c1
+      internalID: 125661911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_44
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 265
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8027e29c7425af940ba5fe28c1530b67
+      internalID: 943512491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883b2f869d7fe1e4a86890fee516f00f
+      internalID: -512277803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_46
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 0
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3982d0cbe9256744bfae392303ba5d9
+      internalID: 1101370942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_47
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 0
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0435ac26fd021446822c575f8da121f
+      internalID: 2003368821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_48
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 0
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b60c5ba8fcad8a46a6316af30646d93
+      internalID: -2024503682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl Animation_entity_000_lie_49
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 0
+        width: 193
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d6bfd104ad69e498c6edf1bc77b6a5
+      internalID: -524931755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ff97ccccc4644554ea7816d5928aca25
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Girl Animation_entity_000_lie_0: 235856742
+      Girl Animation_entity_000_lie_1: 1068125542
+      Girl Animation_entity_000_lie_10: 1991619835
+      Girl Animation_entity_000_lie_11: 84491865
+      Girl Animation_entity_000_lie_12: 828693129
+      Girl Animation_entity_000_lie_13: -1178468906
+      Girl Animation_entity_000_lie_14: -1712246172
+      Girl Animation_entity_000_lie_15: -627149338
+      Girl Animation_entity_000_lie_16: 240178859
+      Girl Animation_entity_000_lie_17: 1088134484
+      Girl Animation_entity_000_lie_18: -1619012406
+      Girl Animation_entity_000_lie_19: 886158930
+      Girl Animation_entity_000_lie_2: -1590919157
+      Girl Animation_entity_000_lie_20: -612203910
+      Girl Animation_entity_000_lie_21: 1250428948
+      Girl Animation_entity_000_lie_22: -1794805027
+      Girl Animation_entity_000_lie_23: 1672474235
+      Girl Animation_entity_000_lie_24: 2134506414
+      Girl Animation_entity_000_lie_25: -1255668270
+      Girl Animation_entity_000_lie_26: 1404959363
+      Girl Animation_entity_000_lie_27: 722469278
+      Girl Animation_entity_000_lie_28: 1039420917
+      Girl Animation_entity_000_lie_29: 608089023
+      Girl Animation_entity_000_lie_3: -348730396
+      Girl Animation_entity_000_lie_30: -875898348
+      Girl Animation_entity_000_lie_31: 384975081
+      Girl Animation_entity_000_lie_32: 1662376612
+      Girl Animation_entity_000_lie_33: 1266911753
+      Girl Animation_entity_000_lie_34: -769275162
+      Girl Animation_entity_000_lie_35: 1962158030
+      Girl Animation_entity_000_lie_36: 254530333
+      Girl Animation_entity_000_lie_37: 1689418861
+      Girl Animation_entity_000_lie_38: 1008081977
+      Girl Animation_entity_000_lie_39: -1362945083
+      Girl Animation_entity_000_lie_4: 1004323238
+      Girl Animation_entity_000_lie_40: -1586016797
+      Girl Animation_entity_000_lie_41: 200834962
+      Girl Animation_entity_000_lie_42: -876578175
+      Girl Animation_entity_000_lie_43: 125661911
+      Girl Animation_entity_000_lie_44: 943512491
+      Girl Animation_entity_000_lie_45: -512277803
+      Girl Animation_entity_000_lie_46: 1101370942
+      Girl Animation_entity_000_lie_47: 2003368821
+      Girl Animation_entity_000_lie_48: -2024503682
+      Girl Animation_entity_000_lie_49: -524931755
+      Girl Animation_entity_000_lie_5: -1510661302
+      Girl Animation_entity_000_lie_6: -1108317371
+      Girl Animation_entity_000_lie_7: 189518853
+      Girl Animation_entity_000_lie_8: 920534857
+      Girl Animation_entity_000_lie_9: -1811531521
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

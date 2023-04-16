@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Bucket
   m_EditorClassIdentifier: 
   objectPrefab: {fileID: 0}
-  effect: 7
+  effect: 15
   bestUsedInStageNumber: 1
   noEffectInStageNumber: 3
   doNotUseInStageNumber: 2

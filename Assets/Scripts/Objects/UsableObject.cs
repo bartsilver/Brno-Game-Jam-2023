@@ -36,6 +36,6 @@ public class UsableObject : ScriptableObject
             noise += effect;
         }
 
-        prisoner.UpdateStats(noise);
+        prisoner.UpdateStats(noise, isSyringe);
     }
 }

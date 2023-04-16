@@ -12,6 +12,8 @@ public class Prisoner : MonoBehaviour
     [SerializeField] GameObject neutralVignette;
     [SerializeField] GameObject goodVignette;
 
+    [SerializeField] GameObject youAreABadPerson;
+
     private PlayableDirector vignettePD;
 
     private AudioSource girlAudioSource;
@@ -22,6 +24,7 @@ public class Prisoner : MonoBehaviour
     public float noiseLevelPercentage = 0f;
 
     public int stage = 1;
+    public bool usedSyringe = false;
 
     CameraControl cameraControl;
 
@@ -51,8 +54,16 @@ public class Prisoner : MonoBehaviour
     }
 
 
-    public void UpdateStats(float noise)
+    public void UpdateStats(float noise, bool syringe)
     {
+        if (syringe)
+        {
+            badVignette.SetActive(true);
+            vignettePD = badVignette.GetComponent<PlayableDirector>();
+            vignettePD.stopped += DisableVignette;
+            UsedSyringe();
+            return;
+        }
         noiseLevel = Mathf.Max(noiseLevel + noise, 0);
 
         if(noise < 0)
@@ -114,6 +125,12 @@ public class Prisoner : MonoBehaviour
     {
         Debug.Log("Lost game!");
         OnLose();
+        this.enabled = false;
+    }
+
+    private void UsedSyringe()
+    {
+        youAreABadPerson.SetActive(true);
         this.enabled = false;
     }
 }

@@ -6458,11 +6458,11 @@ PrefabInstance:
       objectReference: {fileID: 332470104}
     - target: {fileID: 2963228591976319616, guid: 8c3f81325514475458889f8f0e50f58b, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2963228592498506484, guid: 8c3f81325514475458889f8f0e50f58b, type: 3}
       propertyPath: maxNoiseLevel
-      value: 20
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 2963228592498506484, guid: 8c3f81325514475458889f8f0e50f58b, type: 3}
       propertyPath: youAreABadPerson
@@ -6498,7 +6498,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5604694286392376016, guid: 8c3f81325514475458889f8f0e50f58b, type: 3}
       propertyPath: timePerStage
-      value: 5
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 5960199504020267128, guid: 8c3f81325514475458889f8f0e50f58b, type: 3}
       propertyPath: m_IsActive
@@ -6520,6 +6520,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 160.4
       objectReference: {fileID: 0}
+    - target: {fileID: 6686082128893785285, guid: 8c3f81325514475458889f8f0e50f58b, type: 3}
+      propertyPath: usableObject
+      value: 
+      objectReference: {fileID: 11400000, guid: 534bac96e350d7a42b0e39d89eb74771, type: 2}
     - target: {fileID: 8742995126664611474, guid: 8c3f81325514475458889f8f0e50f58b, type: 3}
       propertyPath: m_RootOrder
       value: 11

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Apple
   m_EditorClassIdentifier: 
   objectPrefab: {fileID: 0}
-  effect: 7
-  bestUsedInStageNumber: 0
-  noEffectInStageNumber: 0
-  doNotUseInStageNumber: 0
+  effect: 15
+  bestUsedInStageNumber: 2
+  noEffectInStageNumber: 1
+  doNotUseInStageNumber: 3
   isSyringe: 0

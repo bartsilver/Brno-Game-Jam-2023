@@ -10,12 +10,18 @@ public class UsableObject : ScriptableObject
     [SerializeField] int bestUsedInStageNumber;
     [SerializeField] int noEffectInStageNumber;
     [SerializeField] int doNotUseInStageNumber;
+    [SerializeField] bool isSyringe = false;
 
 
     public void UseObject(Prisoner prisoner)
     {
         int currentStage = prisoner.GetStage();
         float noise = 0;
+
+        if (isSyringe)
+        {
+            noise += effect;
+        }
 
         if (currentStage == bestUsedInStageNumber)
         {

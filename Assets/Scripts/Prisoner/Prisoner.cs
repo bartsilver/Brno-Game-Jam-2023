@@ -2,10 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using UnityEngine.Playables;
 
 public class Prisoner : MonoBehaviour
 {
     [SerializeField] float maxNoiseLevel = 0f;
+
+    [SerializeField] GameObject badVignette;
+    [SerializeField] GameObject neutralVignette;
+    [SerializeField] GameObject goodVignette;
+
+    private PlayableDirector vignettePD;
+
 
     private float noiseLevel = 0f;
     public float noiseLevelPercentage = 0f;
@@ -40,7 +48,29 @@ public class Prisoner : MonoBehaviour
     public void UpdateStats(float noise)
     {
         noiseLevel = Mathf.Max(noiseLevel + noise, 0);
-        Debug.Log("object used");
+
+        if(noise < 0)
+        {
+            goodVignette.SetActive(true);
+            vignettePD = goodVignette.GetComponent<PlayableDirector>();
+        }
+        if (noise == 0)
+        {
+            neutralVignette.SetActive(true);
+            vignettePD = neutralVignette.GetComponent<PlayableDirector>();
+        }
+        if (noise > 0)
+        {
+            badVignette.SetActive(true);
+            vignettePD = badVignette.GetComponent<PlayableDirector>();
+        }
+
+        vignettePD.stopped += DisableVignette;
+    }
+
+    private void DisableVignette(PlayableDirector obj)
+    {
+        vignettePD.gameObject.SetActive(false);
     }
 
     public int GetStage()
